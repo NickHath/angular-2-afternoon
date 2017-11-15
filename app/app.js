@@ -17,11 +17,11 @@ angular.module('devmtnTravel', ['ui.router']).config( function ( $stateProvider,
       controller: 'bookedCtrl'
     }).state('adventurers', {
       url: '/adventurers',
-      templateUrl: 'app/adventurers/adventurersTmpl.html',
+      templateUrl: 'app/about/adventurers/adventurersTmpl.html',
       parent: 'home'
     }).state('contact', {
       url: '/contact',
-      templateUrl: 'app/contact/contactTmpl.html',
+      templateUrl: 'app/about/contact/contactTmpl.html',
       parent: 'home'
     });
 
