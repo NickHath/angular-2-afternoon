@@ -1,7 +1,7 @@
 <section class="booked-main-container" 
          ng-if="package"
          ng-style="{'background-image': 'url({{package.image}})'">
-  <h1>Thanks for trusting us with your trip to {{package.city}}, {{package.coutnry}}<br>   <!-- Data bind the city name here --> </h1>
+  <h1>Thanks for trusting us with your trip to {{package.city}}, {{package.country}}<br>   <!-- Data bind the city name here --> </h1>
 
   <!--This button needs a ui-sref that points to packages -->
   <button ui-sref="packages({ country: '{{ package.country }}' })"> VIEW MORE PACKAGES </button>
